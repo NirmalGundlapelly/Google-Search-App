@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.suggestionItem {
+  list-style: none;
+  color: #64748b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: left;
+  padding-bottom: 10px;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 28vw;
+}
+.icon-arrow {
+  width: 30px;
+}
+.textContainer {
+  text-align: start;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+@media screen and (max-width: 767px) {
+  .textContainer {
+    font-size: 15px;
+  }
+  .icon-arrow {
+    width: 20px;
+  }
+  .suggestionItem {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .suggestionItem {
+    list-style: none;
+    color: #64748b;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28vw;
+  }
+}
